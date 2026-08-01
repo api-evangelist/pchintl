@@ -1,8 +1,26 @@
 aid: pchintl
-name: Pchintl
-description: 'Pchintl is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pchintl.png
+name: PCH International
+description: 'PCH International (pchintl.com) is a global supply chain solutions provider that
+  helps brands bring innovative physical products to market across the entire product lifecycle.
+  Its services span new product introduction (NPI) planning, design and development, validation
+  and manufacturing (EVT/DVT/PVT), and post-production revenue optimization, plus global
+  logistics, direct-to-consumer (D2C) transformation, supply-chain financing, and sustainability
+  programs. PCH serves personal care and beauty, health and fitness, home and lifestyle,
+  accessories, audio and entertainment, and smart retail sectors. Surfaced as a portfolio company
+  of Norwest Venture Partners, PCH is a B2B services provider with no public developer API or
+  platform at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/pchintl/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- Supply Chain
+- Manufacturing
+- Logistics
+- Product Development
+- Direct to Consumer
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/pchintl-domain-security.yml
 - type: Website
   url: https://pchintl.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
